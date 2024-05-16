@@ -1,0 +1,8 @@
+[db]
+db.paturi.online
+
+[backend]
+backend.paturi.online
+
+[frontend]
+paturi.online
