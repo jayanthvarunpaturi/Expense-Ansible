@@ -30,3 +30,18 @@ This project demonstrates:
 
 ### 📂 Directory Structure
 
+expense-tracker-ansible/
+├── playbook.yml
+├── inventory.ini
+├── roles/
+│ └── tracker/
+│ ├── tasks/
+│ │ └── main.yml
+│ └── files/
+│ └── tracker.sh
+
+
+### ▶️ Run the Playbook
+
+```bash
+ansible-playbook -i inventory.ini playbook.yml
