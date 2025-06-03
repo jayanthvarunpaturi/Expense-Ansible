@@ -1,30 +1,32 @@
+# 💸 Expense Tracker – Ansible Deployment
+
+A lightweight command-line expense tracker application, automated using **Ansible** for quick and consistent deployment.
 
 ---
 
-## 📁 2. **Expense Tracker – Ansible Version**
+## 📦 Project Overview
 
-> 📂 For the same app deployed/configured using Ansible
+This project demonstrates:
+- A simple shell-based expense tracker
+- Ansible-based automation for deployment/setup
+- Configuration of required permissions and dependencies
 
-```markdown
-# 💸 Expense Tracker (Ansible + Automation)
+---
 
-This repository includes the same simple expense tracker, but enhanced with an Ansible playbook for automated deployment/configuration.
+## ⚙️ Technologies Used
 
-## 🚀 What’s Inside
-- Expense tracker app (CLI-based)
-- Ansible playbook to deploy and configure dependencies
+- 🐧 Shell Script (Bash)
+- ⚙️ Ansible (Provisioning & Automation)
+- 🧾 YAML (Playbook Configuration)
 
-## 🛠️ Tech Stack
-- Shell scripting
-- Ansible (for provisioning)
-- YAML for playbook definitions
+---
 
-## 🧪 How to Use
+## 🚀 How to Run
 
-```bash
-# Clone the repository
-git clone https://github.com/jayanthvarunpaturi/expense-tracker-ansible.git
-cd expense-tracker-ansible
+### 🔧 Prerequisites
+- Ansible installed on the control machine
+- SSH access to target host(s)
+- Python installed on the target system
 
-# Run the playbook
-ansible-playbook deploy.yml
+### 📂 Directory Structure
+
